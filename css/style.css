@@ -13,7 +13,7 @@ overflow: hidden;
 
 .button_1 {
     height: 39px;
-    background: #e8491d;
+    background:blueviolet;
     border: 0;
     padding: 0 20px;
     color: #fff;
@@ -28,7 +28,7 @@ header {
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: blueviolet 3px solid;
 }
 
 header a {
@@ -110,8 +110,10 @@ header .highlight, header .current a {
  #boxes .box {
      float: left;
      text-align: center;
-     width: 30%;
+     width: 28%;
      padding: 10px;
+     background: #35424a;
+     margin: 0 10px;
  }
 
  footer {
@@ -120,4 +122,11 @@ header .highlight, header .current a {
      color: white;
      background-color: #e8491d;
      text-align: center;
+ }
+
+ @media (min-width > 500px) {
+     #boxes .box {
+         width: 100%;
+         padding: 10px;
+     }
  }
